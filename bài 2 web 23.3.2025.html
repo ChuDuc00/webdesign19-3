@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang tin tức</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #2aa3b9;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .navbar ul li {
+            padding: 0 15px;
+            cursor: pointer;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .news-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .news-main img {
+            width: 100%;
+            max-width: 800px;
+            border-radius: 8px;
+        }
+        .news-main h2 {
+            color: #333;
+            margin-top: 10px;
+        }
+        .news-sidebar {
+            margin-top: 20px;
+        }
+        .news-item {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        .news-item img {
+            width: 80px;
+            height: 80px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .news-item a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .back-button {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            width: 100px;
+            border-radius: 5px;
+        }
+        .back-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li>NÓNG</li>
+            <li>MỚI</li>
+            <li>VIDEO</li>
+            <li>CHỦ ĐỀ</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="news-main">
+            <img src="https://up.yimg.com/ib/th?id=OVFT.JHswBq4OFXuWlSDnEl_AkC&pid=News&w=400&h=228&c=14&qlt=90&dpr=2&rs=1" alt="Tin tức chính">
+            <h2> Nga đồng ý ngừng tấn công vào cơ sở năng lượng của Ukraine</h2>
+            <p><i>Công an nhân dân - 16 phút trước - 4235 liên quan</i></p>
+        </div>
+
+        <div class="news-sidebar">
+            <div class="news-item">
+                <img src="https://up.yimg.com/ib/th?id=OVFT.xW-3vMYNVp5zzfy7RxX_Hy&pid=News&w=400&h=228&c=14&qlt=90&dpr=2&rs=1" alt="Ảnh tin phụ">
+                <div>
+                    <a href="#">Giá vàng hôm nay 19/3: Vàng nhẫn lập đỉnh mới, đạt mức 98,7 triệu đồng/lượng</a>
+                    <p><i>VOV - 20 phút trước</i></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://up.yimg.com/ib/th?id=OVFT.zSAjfiqHyy0s85lCMGNGHS&pid=News&w=512&h=384&c=14&qlt=90&dpr=2&rs=1" alt="Ảnh tin phụ">
+                <div>
+                    <a href="#">Tuyển Việt Nam đấu Campuchia: Khi ông Kim Sang Sik toan tính</a>
+                    <p><i>Vietnamnet - 30 phút trước</i></p>
+                </div>
+            </div>
+            <div class="news-item">
+                <img src="https://up.yimg.com/ib/th?id=OVFT.8_sHe5TU_d1hde7xBA_dHi&pid=News&w=512&h=384&c=14&qlt=90&dpr=2&rs=1" alt="Ảnh tin phụ">
+                <div>
+                    <a href="#">Tổng thống Ukraine lên tiếng sau điện đàm thượng đỉnh Mỹ - Nga</a>
+                    <p><i>VTC - 38 phút trước</i></p>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="back-button">Quay lại</a>
+    </div>
+
+</body>
+</html>
